@@ -30,3 +30,25 @@ mkdir -p    then dir name => it recursively creates directory
 
 
 
+mv   then file name  then new file name => it renames the file
+mv   then file name  then the dir add => it moves the file in that directory
+cp   then file name  then the folder or dir => it copies the file there
+cp -r  then dir name and then dir address => copies the folder in the destination
+rm   then file name => it removes the file
+rm -r   then dir name => it removes the folder
+
+
+chmod: Change file permissions, Modify the read, write and execute permissions of a file
+You have to search the web or see that lecture for this section
+
+pipe | character,
+command 1 | command 2  => so whatever output comes from command 1 flows to command 2
+
+
+wc    file name => to check how the file looks like or get the basic set of stats about the file
+
+grep    the text/word/phrase in double quotes    then file name => 
+this command that lets you find occurences of certain words, or phrases or any particular expression within a set of files or a directory or project
+
+grep    the text/word/phrase in double quotes    then file name  | wc => it will give the stats
+there are -c and -h commands you cna use and search more of them on the web
